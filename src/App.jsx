@@ -2,11 +2,14 @@ import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import backImage from "../src/assets/backgound.jpg";
 
 function App() {
   return <div>
-    <div className=" w-screen h-screen flex justify-center items-center">
-      <div className="  flex flex-col justify-center items-center w-[80%] md:w-[50%] h-[50%] bg-[#D3D0C3]/90 rounded-md  shadow-lg shadow-black outline-none ring-1 ring-slate-50 ">
+    <div className=" w-screen h-screen flex justify-center items-center relative">
+      <img src={backImage} className=" absolute -z-10 top-0 h-screen object-cover " alt="" />
+      {/* Content Container */}
+      <div className=" opacity-60 flex flex-col justify-center items-center w-[80%] md:w-[50%] h-[50%] bg-[#D3D0C3]/90 rounded-md  shadow-lg shadow-black outline-none ring-1 ring-slate-50 ">
 
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
