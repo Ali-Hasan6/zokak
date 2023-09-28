@@ -10,11 +10,11 @@ function App() {
 
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
-          <div className=" flex relative right-1" >
-            <a className="flex relative right-4 justify-center items-center space-x-3" href="tel:07510508670">
+          <div className=" flex relative right-4" >
+            <a className="flex justify-center items-center space-x-3" href="tel:07510508670">
               <BsFillTelephoneFill className=" block" size={30} />
+              <p className=" text-lg font-medium">Phone</p>
             </a>
-            <p className=" text-lg font-medium">Phone</p>
           </div>
 
           {/* Insta */}
