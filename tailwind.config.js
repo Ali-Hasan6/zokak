@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage : {
+        "cat": "url('https://bit.ly/fcc-relaxing-cat')"
+      }
+    },
   },
   plugins: [],
 }
