@@ -10,25 +10,28 @@ function App() {
 
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
-          <div className="flex  relative right-4 justify-center items-center space-x-3">
-            <a href="tel:07510508670">
+          <div className=" flex relative right-1" >
+            <a className="flex relative right-4 justify-center items-center space-x-3" href="tel:07510508670">
               <BsFillTelephoneFill className=" block" size={30} />
             </a>
             <p className=" text-lg font-medium">Phone</p>
           </div>
 
           {/* Insta */}
-          <div className="flex  justify-center items-center space-x-3" >
-
-            <a href="https://instagram.com/zuqaq.91?igshid=MzRlODBiNWFlZA==">
+          <div >
+            <a className="flex  justify-center items-center space-x-3"
+              href="https://instagram.com/zuqaq.91?igshid=MzRlODBiNWFlZA==">
               <BsInstagram size={30} />
+              <p className=" text-lg font-medium">Instagram</p>
             </a>
-            <p className=" text-lg font-medium">Instagram</p>
+
           </div>
 
           {/* Face */}
-          <div className="flex  justify-center items-center space-x-3" >
-            <BsFacebook size={30} />
+          <div className="flex justify-center items-center space-x-3" >
+            <a className="flex justify-center items-center space-x-3" href="#">
+              <BsFacebook size={30} />
+            </a>
             <p className=" text-lg font-medium">Facebook</p>
           </div>
         </div>
