@@ -7,13 +7,13 @@ import backImage from "../src/assets/backgound.webp";
 function App() {
   return <div>
     <div className=" w-screen h-screen flex justify-center items-center relative">
-      <img src={backImage} className=" absolute -z-10 top-0 h-screen object-cover " alt="" />
+      <img src={backImage} className=" absolute -z-10 top-0 h-screen object-cover  " alt="" />
       {/* Content Container */}
-      <div onLoad="lazy" className=" opacity-60 flex flex-col justify-center items-center w-[80%] md:w-[50%] h-[50%] bg-[#D3D0C3]/90 rounded-md  shadow-lg shadow-black outline-none ring-1 ring-slate-50 ">
+      <div onLoad="lazy" className=" opacity-60 flex flex-col justify-center items-center w-[80%] md:w-[50%] h-[50%] bg-[#D3D0C3]/90 rounded-md  shadow-lg shadow-black outline-none ring-1 ring-slate-50  ">
 
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
-          <div className=" flex relative right-4" >
+          <div className=" flex relative right-4 hover:scale-105 duration-150" >
             <a className="flex justify-center items-center space-x-3" href="tel:07510508670">
               <BsFillTelephoneFill className=" block" size={30} />
               <p className=" text-lg font-medium">Phone</p>
@@ -22,7 +22,7 @@ function App() {
 
           {/* Insta */}
           <div >
-            <a className="flex  justify-center items-center space-x-3"
+            <a className="flex  justify-center items-center space-x-3 hover:scale-105 duration-150"
               href="https://instagram.com/zuqaq.91?igshid=MzRlODBiNWFlZA==">
               <BsInstagram size={30} />
               <p className=" text-lg font-medium">Instagram</p>
@@ -32,7 +32,7 @@ function App() {
 
           {/* Face */}
           <div className="flex justify-center items-center space-x-3" >
-            <a className="flex justify-center items-center space-x-3" href="#">
+            <a className="flex justify-center items-center space-x-3 hover:scale-105 duration-150" href="#">
               <BsFacebook size={30} />
             </a>
             <p className=" text-lg font-medium">Facebook</p>
