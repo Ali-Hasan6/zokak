@@ -14,13 +14,14 @@ function App() {
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
           <div className=" text-white flex relative right-5 hover:scale-105 duration-150 hover:text-teal-300" >
-            <a className="flex justify-center items-center space-x-3" href="https://wa.me07510508670">
+            {/* You have to add the country serial number for whatsapp */}
+            <a className="flex justify-center items-center space-x-3" href="https://wa.me/+9647510508670">
               <BsFillTelephoneFill className=" block" size={30} />
               <p className=" text-2xl font-medium">Phone</p>
             </a>
           </div>
 
-          {/* Insta */}
+          {/* Instagram */}
           <div >
             <a className="flex text-white  justify-center items-center space-x-3 hover:scale-105 duration-150 hover:text-teal-300"
               href="https://instagram.com/zuqaq.91?igshid=MzRlODBiNWFlZA==">
@@ -32,10 +33,10 @@ function App() {
 
           {/* Face */}
           <div className=" text-white flex justify-center items-center space-x-3 hover:text-teal-300 cursor-pointer hover:scale-105 duration-150" >
-            <a className="flex justify-center items-center space-x-3" href="https://www.facebook.com/profile.php?id=61552121961818&mibextid=LQQJ4d">
+            <a className="flex justify-center items-center space-x-3" href="https://www.facebook.com/people/%D8%B2%D9%82%D8%A7%D9%82-%D9%A9%D9%A1/61552121961818/?mibextid=LQQJ4d">
               <BsFacebook size={30} />
+              <p className=" text-2xl font-medium">Facebook</p>
             </a>
-            <p className=" text-2xl font-medium">Facebook</p>
           </div>
         </div>
 
