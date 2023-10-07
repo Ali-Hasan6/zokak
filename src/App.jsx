@@ -14,7 +14,7 @@ function App() {
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
           <div className=" text-white flex relative right-5 hover:scale-105 duration-150 hover:text-teal-300" >
-            <a className="flex justify-center items-center space-x-3" href="tel:07510508670">
+            <a className="flex justify-center items-center space-x-3" href="https://wa.me07510508670">
               <BsFillTelephoneFill className=" block" size={30} />
               <p className=" text-2xl font-medium">Phone</p>
             </a>
@@ -32,7 +32,7 @@ function App() {
 
           {/* Face */}
           <div className=" text-white flex justify-center items-center space-x-3 hover:text-teal-300 cursor-pointer hover:scale-105 duration-150" >
-            <a className="flex justify-center items-center space-x-3  " href="#">
+            <a className="flex justify-center items-center space-x-3" href="https://www.facebook.com/profile.php?id=61552121961818&mibextid=LQQJ4d">
               <BsFacebook size={30} />
             </a>
             <p className=" text-2xl font-medium">Facebook</p>
