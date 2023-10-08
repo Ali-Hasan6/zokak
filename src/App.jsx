@@ -1,7 +1,8 @@
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import {BsWhatsapp} from "react-icons/bs";
+
 import backImage from "../src/assets/backgoundDark.webp";
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
           <div className=" text-white flex relative right-5 hover:scale-105 duration-150 hover:text-teal-300" >
             {/* You have to add the country serial number for whatsapp */}
             <a className="flex justify-center items-center space-x-3" href="https://wa.me/+9647510508670">
-              <BsFillTelephoneFill className=" block" size={30} />
-              <p className=" text-2xl font-medium">Phone</p>
+              <BsWhatsapp className=" block" size={30} />
+              <p className=" text-2xl font-medium">Whatsapp</p>
             </a>
           </div>
 
