@@ -14,9 +14,9 @@ function App() {
 
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
-          <div className=" text-white flex relative right-5 hover:scale-105 duration-150 hover:text-teal-300" >
+          <div className=" text-white  hover:scale-105 duration-150 hover:text-teal-300" >
             {/* You have to add the country serial number for whatsapp */}
-            <a className="flex justify-center items-center space-x-3" href="https://wa.me/+9647510508670">
+            <a className=" flex justify-center items-center space-x-3" href="https://wa.me/+9647510508670">
               <BsWhatsapp className=" block" size={30} />
               <p className=" text-2xl font-medium">Whatsapp</p>
             </a>
