@@ -3,7 +3,7 @@ import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import {BsWhatsapp} from "react-icons/bs";
 
-import backImage from "../src/assets/backgoundDark.webp";
+import backImage from "../src/assets/newbackground.jpg";
 
 function App() {
   return <div>
