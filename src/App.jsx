@@ -10,7 +10,7 @@ function App() {
     <div className=" w-screen h-screen flex justify-center items-center relative">
       <img src={backImage} className=" absolute -z-10 top-0 h-screen object-cover  " alt="" />
       {/* Content Container */}
-      <div className="  bg-opacity-30  flex flex-col justify-center items-center w-[80%] md:w-[50%] h-[50%] bg-gray-400 rounded-md  shadow-xl shadow-black/50 outline-none ring-2 ring-slate-500 animate-flip-down animate-ease-in-out ">
+      <div className="  bg-opacity-10  flex flex-col justify-center items-center w-[80%] md:w-[50%] h-[50%] bg-gray-400 rounded-md  shadow-xl shadow-black/50 outline-none ring-2 ring-slate-500 animate-flip-down animate-ease-in-out ">
 
         <div className=" flex flex-col justify-center items-center space-y-9">
           {/* Phone */}
